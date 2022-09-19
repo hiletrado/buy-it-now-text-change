@@ -1,14 +1,18 @@
 button.shopify-payment-button__button {
 font-size: 0px !important;
 }
-button.shopify-payment-button__button:before {
-  content: "ANY TEXT(PURCHASE)";
-  line-height: 1.42;
+button.shopify-payment-button__button:after {
+  content: "Comprar en pagos";
+  line-height: 2.32;
   text-decoration: none;
   text-align: center;
+  color: white;
+  background-color: red;
   white-space: normal;
-  font-size: 11px;
+  font-size: 19px;
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  text-transform: none;
+  letter-spacing: 0.01em;
+
+  
 }
